@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#addTaskForm label,
+#addTaskForm input,
+#addTaskForm textarea,
+#addTaskForm select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#addTaskForm input[type="text"],
+#addTaskForm input[type="date"],
+#addTaskForm textarea {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#addTaskForm button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addTaskForm button:hover {
+    background-color: #45a049;
+}
+
+#taskList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#taskList li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#taskList li .task-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#taskList li .task-details .task-title {
+    font-weight: bold;
+}
+
+#taskList li .task-actions button {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#taskList li .task-actions button:hover {
+    background-color: #d32f2f;
+}
